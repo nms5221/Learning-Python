@@ -38,7 +38,7 @@ def play_morse(morse):
     import pygame
 
     # Function called to display the code on the screen
-    def display_morse(t):
+    def display(t):
         # Font setup
         font = pygame.font.Font(None, 64)
 
@@ -77,13 +77,13 @@ def play_morse(morse):
 
         display_text += char
         if char == '.':
-            display_morse(display_text)
+            display(display_text)
             winsound.Beep(frequency, duration)
         elif char == '-':
-            display_morse(display_text)
+            display(display_text)
             winsound.Beep(frequency, duration * 3)
         elif char == ' ' or char == '/':
-            display_morse(display_text)
+            display(display_text)
             time.sleep(duration * 4 / 1000)
         screen.blit(background, (0, 0))
 
