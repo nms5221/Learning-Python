@@ -4,7 +4,7 @@ https://www.reddit.com/r/dailyprogrammer/comments/pu1rf/2172012_challenge_9_easy
 '''
 
 
-def sort_list(values=[]):
+def sort_list(values):
     # Determining if the value is a number or a string
     num_values = []
     str_values = []
