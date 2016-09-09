@@ -4,7 +4,7 @@ https://www.reddit.com/r/dailyprogrammer/comments/pv98f/2182012_challenge_10_eas
 '''
 
 import unittest
-from E10_Regex_Phone_Numbers.py import validate_phone_number
+from E10_Regex_Phone_Numbers import validate_phone_number
 
 
 class test_phone_number(unittest.TestCase):
