@@ -4,7 +4,7 @@ https://www.reddit.com/r/dailyprogrammer/comments/pwons/2192012_challenge_11_eas
 '''
 
 import unittest
-from E11_Day_Of_Week import get_day_of_week
+from Day_Of_Week import get_day_of_week
 
 
 class test_day_of_week(unittest.TestCase):
