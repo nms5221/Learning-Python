@@ -1,6 +1,4 @@
 """
-There are two classes defined in this module:
-
 Position: Tracks user movement around a two dimensional grid
     coordinates: A dictionary where the key is a tuple of the x, y coordinate and the value is a tuple of the
         available N/E/S/W directions in 0s and 1s, respectively, from the x, y coordinate
