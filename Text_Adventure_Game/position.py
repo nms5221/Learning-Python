@@ -13,10 +13,6 @@ Position: Tracks user movement around a two dimensional grid
     instructions: List of available commands
     valid_direction: Message to display if the user can go in the chosen direction
     invalid_direction: Message to display if the user cannot go in the chosen direction
-
-Maze: Subclass of Position that creates a maze game/story
-    story_start: The start of the text adventure story to display to the user
-    story_end: The end of the text adventure story to display to the user
 """
 
 
